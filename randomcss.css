@@ -1,0 +1,140 @@
+.containerhead{
+  /*border: 1px solid #ccc;*/
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+#i4sfimage{
+  position: relative;
+  display: inline block;
+  width: 8%;
+  margin: 0.5%;
+}
+
+#TitleN{
+  position: absolute;
+  display: inline-block;
+  left: 50%;
+  color: blueviolet;
+  transform: translate(-50%,-50%);
+  width: 20%;
+
+}
+
+#footer{
+  position: absolute;
+  display: inline-block;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  color: blueviolet;
+  right: 0%;
+  width: 16%;
+}
+
+
+
+
+.container1{
+  position: absolute;
+  border: 1px solid #ccc;
+  height: 70vh;
+  width: 30%;
+}
+#itemInput{
+  width: 98%;
+  height: 32%;
+  
+}
+#saveButton{
+  position: relative;
+  width: 25%;
+}
+
+#opentextBox{
+  position: absolute;
+  left: 40%;
+  top: 34%;
+  width: 25%;
+}
+#roll{
+  position: absolute;
+  left: 80%;
+  top: 34%;
+  width: 20%;
+}
+#clearWinner{
+  position: absolute;
+  top: 45%;
+  width: 35%;
+}
+#loadingGif{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 50%;
+  opacity: 0;
+  
+}
+
+
+
+.container2{
+  position: absolute;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  height: 70vh;
+  width: 36.5%;
+  left: 32%;
+}
+
+#winnerimg{
+  max-width: 100%;
+}
+#nameLabel{
+  text-align: center;
+  position: absolute;
+
+  left: 25%;
+  font-weight: bolder;
+  font-size: x-large;
+  
+}
+
+
+
+
+
+.container3{
+  position: absolute;
+  border: 1px solid #ccc;
+  height: 70vh;
+  width: 30%;
+  right: 0%;
+
+}
+#CongratsWinners{
+  width: 100%;
+  height: 35vh;
+}
+
+#winnersAlready{
+  width: 100%;
+  display: flex;
+  position: absolute;
+  left: 0%;
+  top: 60%;
+  font-weight: bolder;
+  max-height: 10vh;
+}
+
+#countInWinnersList{
+  display: flex;
+  position: absolute;
+  right: 5%;
+  font-weight: 800;
+}
+
+
+
